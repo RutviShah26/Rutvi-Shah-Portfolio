@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon-32x32.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutvi Shah's Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="right-header">
+              <h1 class="name">Hi, I’m Rutvi Shah <span>👋</span> Welcome to my Portfolio!</h1>
+              <p>
+          
+                With hands-on experience in UX/UI design, data
+                analysis, and web development, I bring together technical skills in C++,
+                Python, Java, and Excel, with a passion for combining technical depth
+                with creative problem-solving to deliver clean, user-friendly solutions.
+                From a young age, I have been fascinated by technology and problem-solving.
+                I’m excited to keep building innovative solutions that make an impact.
+              </p>
+
+            </div>
+          </div>
+          
+    </header>
+    <main>
+       
+       
+        <section class="container" id="portfolio">
+            <div class="main-title">
+              <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+          
+          
+            <div class="portfolios">
+              <!-- 1 -->
+              <div class="portfolio-item">
+                <div class="image">
+                  <img src= "img/excel.jpg" alt="">
+                </div>
+                <div class="hover-items">
+                  <h3>Data Cleaning</h3>
+                  <div class="icons">
+                    <a href="https://github.com/RutviShah26/Excel-Project" class="icon">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- 2 -->
+              <div class="portfolio-item">
+                <div class="image">
+                  <img src="img/sql.jpg" alt="">
+                </div>
+                <div class="hover-items">
+                  <h3>Restaurant Order</h3>
+                  <div class="icons">
+                    <a href="https://github.com/RutviShah26/SQL-Project" class="icon">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio-item">
+                <div class="image">
+                    <img src="img/truckle.jpg" alt="">
+                </div>
+                <div class="hover-items">
+                    <h3>Food Truck Explorer</h3>
+                    <div class="icons">
+                        <a href="https://www.youtube.com/watch?v=_zLaHiDD2Nw" class="icon" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+
+            </div>
+          </section>
+          
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location: </span>
+                                </div>
+                                <p>
+                                    Los Angeles, California
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email: </span>
+                                </div>
+                                <p>
+                                    <span>&nbsp rutvishahh26@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-phone"></i>
+                                    <span>Phone: </span>
+                                </div>
+                                <p>
+                                    <span>714-718-6487</span>
+                                </p>
+                            </div>
+
+                        <div class="contact-icons">
+                            <div class="icons">
+                                <a href="https://github.com/RutviShah26" class="icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/RutviShah21/" class="icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+   
+    <script src="app.js"></script>
+
+    <!-- New top text nav (does not replace your existing controls) -->
+    <nav class="top-nav">
+        <button class="top-nav-item" data-target="home">Home</button>
+        <button class="top-nav-item" data-target="portfolio">Experience</button> <!-- note: portfolio -->
+        <button class="top-nav-item" data-target="contact">Contact</button>
+      </nav>
+      
+      <script>
+        document.querySelectorAll('.top-nav-item').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const id = btn.dataset.target;
+      
+            // 1) Try to click the original hidden control (keeps existing logic)
+            const original = document.querySelector(`.controls .control[data-id="${id}"]`);
+            if (original) original.click();
+      
+            // 2) Also directly toggle sections as a fallback
+            document.querySelectorAll('.container').forEach(s => s.classList.remove('active'));
+            const targetEl = document.getElementById(id);
+            if (targetEl) targetEl.classList.add('active');
+      
+            // Update top-nav active state
+            document.querySelectorAll('.top-nav-item').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+          });
+        });
+      </script>
+      
+
+</body>
+</html>
